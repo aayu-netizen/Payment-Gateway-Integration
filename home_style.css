@@ -13,6 +13,16 @@ body{
     top: 60%;
     left: 45%;
 }
+.above-section{
+    padding-top: 10%;
+    text-align: center;
+}
+
+
+.heading{
+    color: rgb(45, 121, 219);
+}
+
 header{
     height: 60px;
     padding: 0 1rem;
@@ -49,8 +59,12 @@ header{
   .header-right :hover{
     text-decoration: none;
 }
-
-
+strong{
+    color:rgb(61, 58, 58);
+}
+.form-label{
+    color: rgb(61, 58, 58);
+}
 footer {
     
     position: absolute;
