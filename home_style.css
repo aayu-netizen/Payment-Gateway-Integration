@@ -1,0 +1,60 @@
+
+body{
+
+    background-image:url("img/home-banner.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   	
+}
+
+.section_class{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+header{
+    height: 60px;
+    padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  background-color: hsla(201, 100%, 6%, 0.6);
+}
+.logo {
+    float: left;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    color: #fff;
+    
+  }
+ .logo :hover{
+     text-decoration: none;
+ 
+ }
+  .header-right{
+   float:right;
+   padding-top: 0.5%;
+   font-size: 2rem;
+   font-weight: 300;
+   letter-spacing: 2px;
+   color: #fff;
+  }
+  .header-right :hover{
+    text-decoration: none;
+}
+
+
+footer {
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   }
+
